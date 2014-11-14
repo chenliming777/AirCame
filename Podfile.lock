@@ -1,0 +1,10 @@
+PODS:
+  - librtmp-iOS (1.1.0)
+
+DEPENDENCIES:
+  - librtmp-iOS (~> 1.1.0)
+
+SPEC CHECKSUMS:
+  librtmp-iOS: f545bce8ef028d0e1a21f816d7c78e3e64e3e6e7
+
+COCOAPODS: 0.34.4

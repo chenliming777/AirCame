@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		215E2A6C2614745DC451BE49 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B448CCB7695A99577A83A683 /* libPods.a */; };
+		5A0DABF01A1491F300A0FC2E /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0DABEF1A1491F300A0FC2E /* AudioManager.m */; };
+		5A48B4C01A0A0E2800C27CDC /* rtmpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A48B4BF1A0A0E2800C27CDC /* rtmpManager.m */; };
+		5AB762781A0B187C004DA7BC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB762771A0B187C004DA7BC /* libz.dylib */; };
+		5ABA2BB51A159D4B0040D1BB /* libTestFAAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABA2BB41A159D4B0040D1BB /* libTestFAAC.a */; };
+		5ABD75901A11FD2000EF2C9C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABD758F1A11FD2000EF2C9C /* AudioToolbox.framework */; };
+		5ABE66E61A108F8E0007CFBE /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ABE66E51A108F8E0007CFBE /* libx264.a */; };
+		5AC675111A04A2E6004AB410 /* x264Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC6750E1A04A2E6004AB410 /* x264Manager.m */; };
+		993736D91724E9B40052F85C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993736D81724E9B40052F85C /* UIKit.framework */; };
+		993736DB1724E9B40052F85C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993736DA1724E9B40052F85C /* Foundation.framework */; };
+		993736DD1724E9B40052F85C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993736DC1724E9B40052F85C /* CoreGraphics.framework */; };
+		993736E31724E9B50052F85C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 993736E11724E9B50052F85C /* InfoPlist.strings */; };
+		993736E51724E9B50052F85C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 993736E41724E9B50052F85C /* main.m */; };
+		993736E91724E9B50052F85C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 993736E81724E9B50052F85C /* AppDelegate.m */; };
+		993736EB1724E9B50052F85C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 993736EA1724E9B50052F85C /* Default.png */; };
+		993736ED1724E9B50052F85C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993736EC1724E9B50052F85C /* Default@2x.png */; };
+		993736EF1724E9B50052F85C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993736EE1724E9B50052F85C /* Default-568h@2x.png */; };
+		993736FD1724EAA30052F85C /* CamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993736FC1724EAA30052F85C /* CamViewController.m */; };
+		993736FF1724FF830052F85C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993736FE1724FF830052F85C /* AVFoundation.framework */; };
+		993737011724FFEE0052F85C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993737001724FFEE0052F85C /* CoreMedia.framework */; };
+		99373703172500110052F85C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99373702172500110052F85C /* CoreVideo.framework */; };
+		993737051725175B0052F85C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993737041725175B0052F85C /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0C30237F4A3587B06D6F92 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5A0DABEE1A1491F300A0FC2E /* AudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioManager.h; sourceTree = "<group>"; };
+		5A0DABEF1A1491F300A0FC2E /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
+		5A48B4BE1A0A0E2800C27CDC /* rtmpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmpManager.h; sourceTree = "<group>"; };
+		5A48B4BF1A0A0E2800C27CDC /* rtmpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rtmpManager.m; sourceTree = "<group>"; };
+		5AB762771A0B187C004DA7BC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5ABA2BB41A159D4B0040D1BB /* libTestFAAC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFAAC.a; sourceTree = "<group>"; };
+		5ABD757B1A11F58300EF2C9C /* faac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faac.h; sourceTree = "<group>"; };
+		5ABD757C1A11F58300EF2C9C /* faaccfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faaccfg.h; sourceTree = "<group>"; };
+		5ABD758F1A11FD2000EF2C9C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5ABE66E31A108F8E0007CFBE /* x264.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264.h; sourceTree = "<group>"; };
+		5ABE66E41A108F8E0007CFBE /* x264_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264_config.h; sourceTree = "<group>"; };
+		5ABE66E51A108F8E0007CFBE /* libx264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libx264.a; path = AirCam/x264/libx264.a; sourceTree = SOURCE_ROOT; };
+		5ABFD3E31A1457CE00EB2360 /* x264Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x264Manager.h; sourceTree = "<group>"; };
+		5AC6750E1A04A2E6004AB410 /* x264Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = x264Manager.m; sourceTree = "<group>"; };
+		6D90BB39ECF364724913CAF5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		993736D51724E9B40052F85C /* AirCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993736D81724E9B40052F85C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		993736DA1724E9B40052F85C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		993736DC1724E9B40052F85C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		993736E01724E9B50052F85C /* AirCam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirCam-Info.plist"; sourceTree = "<group>"; };
+		993736E21724E9B50052F85C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		993736E41724E9B50052F85C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		993736E61724E9B50052F85C /* AirCam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirCam-Prefix.pch"; sourceTree = "<group>"; };
+		993736E71724E9B50052F85C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		993736E81724E9B50052F85C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		993736EA1724E9B50052F85C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		993736EC1724E9B50052F85C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		993736EE1724E9B50052F85C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		993736FB1724EAA30052F85C /* CamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamViewController.h; sourceTree = "<group>"; };
+		993736FC1724EAA30052F85C /* CamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamViewController.m; sourceTree = "<group>"; };
+		993736FE1724FF830052F85C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		993737001724FFEE0052F85C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		99373702172500110052F85C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		993737041725175B0052F85C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B448CCB7695A99577A83A683 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		993736D21724E9B40052F85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABD75901A11FD2000EF2C9C /* AudioToolbox.framework in Frameworks */,
+				5AB762781A0B187C004DA7BC /* libz.dylib in Frameworks */,
+				5ABA2BB51A159D4B0040D1BB /* libTestFAAC.a in Frameworks */,
+				993737051725175B0052F85C /* CFNetwork.framework in Frameworks */,
+				99373703172500110052F85C /* CoreVideo.framework in Frameworks */,
+				993737011724FFEE0052F85C /* CoreMedia.framework in Frameworks */,
+				993736FF1724FF830052F85C /* AVFoundation.framework in Frameworks */,
+				993736D91724E9B40052F85C /* UIKit.framework in Frameworks */,
+				993736DB1724E9B40052F85C /* Foundation.framework in Frameworks */,
+				993736DD1724E9B40052F85C /* CoreGraphics.framework in Frameworks */,
+				5ABE66E61A108F8E0007CFBE /* libx264.a in Frameworks */,
+				215E2A6C2614745DC451BE49 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ABD75791A11F58300EF2C9C /* aac */ = {
+			isa = PBXGroup;
+			children = (
+				5ABA2BB41A159D4B0040D1BB /* libTestFAAC.a */,
+				5ABD757A1A11F58300EF2C9C /* include */,
+			);
+			path = aac;
+			sourceTree = "<group>";
+		};
+		5ABD757A1A11F58300EF2C9C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5ABD757B1A11F58300EF2C9C /* faac.h */,
+				5ABD757C1A11F58300EF2C9C /* faaccfg.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		5ABE66C11A107AC90007CFBE /* x264 */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE66E21A108F8E0007CFBE /* include */,
+				5ABE66E51A108F8E0007CFBE /* libx264.a */,
+			);
+			path = x264;
+			sourceTree = "<group>";
+		};
+		5ABE66E21A108F8E0007CFBE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				5ABE66E31A108F8E0007CFBE /* x264.h */,
+				5ABE66E41A108F8E0007CFBE /* x264_config.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		993736CC1724E9B40052F85C = {
+			isa = PBXGroup;
+			children = (
+				993736DE1724E9B40052F85C /* AirCam */,
+				993736D71724E9B40052F85C /* Frameworks */,
+				993736D61724E9B40052F85C /* Products */,
+				C397B44125CB6E08020D9E36 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		993736D61724E9B40052F85C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993736D51724E9B40052F85C /* AirCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993736D71724E9B40052F85C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5ABD758F1A11FD2000EF2C9C /* AudioToolbox.framework */,
+				5AB762771A0B187C004DA7BC /* libz.dylib */,
+				993736FE1724FF830052F85C /* AVFoundation.framework */,
+				993737001724FFEE0052F85C /* CoreMedia.framework */,
+				99373702172500110052F85C /* CoreVideo.framework */,
+				993737041725175B0052F85C /* CFNetwork.framework */,
+				993736D81724E9B40052F85C /* UIKit.framework */,
+				993736DA1724E9B40052F85C /* Foundation.framework */,
+				993736DC1724E9B40052F85C /* CoreGraphics.framework */,
+				B448CCB7695A99577A83A683 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		993736DE1724E9B40052F85C /* AirCam */ = {
+			isa = PBXGroup;
+			children = (
+				5ABD75791A11F58300EF2C9C /* aac */,
+				5ABE66C11A107AC90007CFBE /* x264 */,
+				5ABFD3E31A1457CE00EB2360 /* x264Manager.h */,
+				5AC6750E1A04A2E6004AB410 /* x264Manager.m */,
+				5A48B4BE1A0A0E2800C27CDC /* rtmpManager.h */,
+				5A48B4BF1A0A0E2800C27CDC /* rtmpManager.m */,
+				5A0DABEE1A1491F300A0FC2E /* AudioManager.h */,
+				5A0DABEF1A1491F300A0FC2E /* AudioManager.m */,
+				993736FB1724EAA30052F85C /* CamViewController.h */,
+				993736FC1724EAA30052F85C /* CamViewController.m */,
+				993736E71724E9B50052F85C /* AppDelegate.h */,
+				993736E81724E9B50052F85C /* AppDelegate.m */,
+				993736DF1724E9B50052F85C /* Supporting Files */,
+			);
+			path = AirCam;
+			sourceTree = "<group>";
+		};
+		993736DF1724E9B50052F85C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				993736E01724E9B50052F85C /* AirCam-Info.plist */,
+				993736E11724E9B50052F85C /* InfoPlist.strings */,
+				993736E41724E9B50052F85C /* main.m */,
+				993736E61724E9B50052F85C /* AirCam-Prefix.pch */,
+				993736EA1724E9B50052F85C /* Default.png */,
+				993736EC1724E9B50052F85C /* Default@2x.png */,
+				993736EE1724E9B50052F85C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C397B44125CB6E08020D9E36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A0C30237F4A3587B06D6F92 /* Pods.debug.xcconfig */,
+				6D90BB39ECF364724913CAF5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		993736D41724E9B40052F85C /* AirCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993736F81724E9B50052F85C /* Build configuration list for PBXNativeTarget "AirCam" */;
+			buildPhases = (
+				FB0FD5482B067881B8BA1402 /* Check Pods Manifest.lock */,
+				993736D11724E9B40052F85C /* Sources */,
+				993736D21724E9B40052F85C /* Frameworks */,
+				993736D31724E9B40052F85C /* Resources */,
+				09BB23F3E7C58253C95E592C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirCam;
+			productName = AirCam;
+			productReference = 993736D51724E9B40052F85C /* AirCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		993736CD1724E9B40052F85C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Si Wen";
+				TargetAttributes = {
+					993736D41724E9B40052F85C = {
+						DevelopmentTeam = F7W524R44R;
+					};
+				};
+			};
+			buildConfigurationList = 993736D01724E9B40052F85C /* Build configuration list for PBXProject "AirCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 993736CC1724E9B40052F85C;
+			productRefGroup = 993736D61724E9B40052F85C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993736D41724E9B40052F85C /* AirCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		993736D31724E9B40052F85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993736E31724E9B50052F85C /* InfoPlist.strings in Resources */,
+				993736EB1724E9B50052F85C /* Default.png in Resources */,
+				993736ED1724E9B50052F85C /* Default@2x.png in Resources */,
+				993736EF1724E9B50052F85C /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09BB23F3E7C58253C95E592C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0FD5482B067881B8BA1402 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		993736D11724E9B40052F85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0DABF01A1491F300A0FC2E /* AudioManager.m in Sources */,
+				993736E51724E9B50052F85C /* main.m in Sources */,
+				993736E91724E9B50052F85C /* AppDelegate.m in Sources */,
+				5AC675111A04A2E6004AB410 /* x264Manager.m in Sources */,
+				993736FD1724EAA30052F85C /* CamViewController.m in Sources */,
+				5A48B4C01A0A0E2800C27CDC /* rtmpManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		993736E11724E9B50052F85C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				993736E21724E9B50052F85C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		993736F61724E9B50052F85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "d827a679-770a-46c8-bedb-de93233e195c";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		993736F71724E9B50052F85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "d827a679-770a-46c8-bedb-de93233e195c";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		993736F91724E9B50052F85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A0C30237F4A3587B06D6F92 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirCam/AirCam-Prefix.pch";
+				INFOPLIST_FILE = "AirCam/AirCam-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AirCam/x264",
+					"$(PROJECT_DIR)/AirCam/librtmp-iOS-master/lib",
+					"$(PROJECT_DIR)/AirCam/aac",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d827a679-770a-46c8-bedb-de93233e195c";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		993736FA1724E9B50052F85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D90BB39ECF364724913CAF5 /* Pods.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirCam/AirCam-Prefix.pch";
+				INFOPLIST_FILE = "AirCam/AirCam-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AirCam/x264",
+					"$(PROJECT_DIR)/AirCam/librtmp-iOS-master/lib",
+					"$(PROJECT_DIR)/AirCam/aac",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d827a679-770a-46c8-bedb-de93233e195c";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		993736D01724E9B40052F85C /* Build configuration list for PBXProject "AirCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993736F61724E9B50052F85C /* Debug */,
+				993736F71724E9B50052F85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993736F81724E9B50052F85C /* Build configuration list for PBXNativeTarget "AirCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993736F91724E9B50052F85C /* Debug */,
+				993736FA1724E9B50052F85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 993736CD1724E9B40052F85C /* Project object */;
+}

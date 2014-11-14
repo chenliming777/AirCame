@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FE9FF5A3-9717-4846-A55D-520E888513DF</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>05AC6CD993F68C0709F9EF73F594686697E91EEE</key>
+		<string>git://git.videolan.org/x264.git</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>05AC6CD993F68C0709F9EF73F594686697E91EEE</key>
+		<string>x264/</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>git://git.videolan.org/x264.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>05AC6CD993F68C0709F9EF73F594686697E91EEE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>05AC6CD993F68C0709F9EF73F594686697E91EEE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>x264</string>
+		</dict>
+	</array>
+</dict>
+</plist>
